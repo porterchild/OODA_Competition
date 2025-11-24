@@ -79,6 +79,7 @@ print("--------------------------------------------------------")
 # ----------------------------------------
 # PLAYER PROMPTS
 # ----------------------------------------
+# TODO: let them cooooook. Don't just provide the answer immediately, let them reason first, but inform them that they are also in temporal competition
 def player_prompt(person, world):
     profile = PLAYER_PROFILES.get(person, "")
     return f"""
